@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="public/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="public/main.js"></script>
+    <title>Portfólio - Ricardo Amaral</title>
+</head>
+<body onload="retrieveRepos()">
+     <header class="nav">
+        <ul class="navItens" id="menu">
+            <li>
+                <a onclick="showHome()">Home</a>
+            </li>
+            <li>
+                <a onclick="showProfile()">Sobre</a>
+            </li>
+        </ul>
+
+        <h3>
+            Ricardo Amaral
+        </h3>
+
+        <ul class="navItens">
+            <li>
+                <img src="public/instagram-icon.png" onclick='window.open("https://www.instagram.com/svynct/")'/>
+            </li>
+            <li>
+                <img src="public/github-icon.png" onclick='window.open("https://github.com/Svynct")'/>
+            </li>
+            <li>
+                <img src="public/linkedin-icon.png" onclick='window.open("https://www.linkedin.com/in/ricardo-dos-santos-amaral/")'/>
+            </li>
+        </ul>
+    </header>
+
+    <section class="main" id="main"></section>
+
+    <section class="profile" id="profile">
+        
+        <div class="profileImageContainer">
+            <img class="profilePic" src="public/ricardo.jpeg"/>
+        </div>
+
+        <div class="profileText">
+            <h3>
+                Sobre
+            </h3>
+            <p>
+                Técnico em Informática e Desenvolvedor Full Stack em busca de trabalho e autoaprimoramento na área de Desenvolvimento de Softwares. Minha experiência com programação começou ainda na minha adolescência quando eu costumava criar "mods" de jogos. Atualmente domino múltiplas stacks diferentes como Java, .NET C#, JavaScript, Spring Boot, Bancos de Dados Relacional e NoSQL. Possuo conhecimento sobre arquitetura de softwares, GIT, MVC, SOLID e metodologia ágil.
+            </p>
+            <h3>
+                Escola Parque Gávea
+            </h3>
+            <p>Estagiário de TI</p>
+            <p>Março de 2021 - Atualmente</p>
+            <p>
+                Presto suporte técnico à professores, alunos e demais funcionários da escola. Realizo backups de computadores, formatação, inserção de micros no domínio e auxilio na manutenção da rede da escola.
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>
